@@ -16,12 +16,12 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # Set the version of chef to install using the vagrant-omnibus plugin
 
 
-  config.omnibus.chef_version = :latest
+  # config.omnibus.chef_version = :latest
   config.berkshelf.enabled = true
   config.cache.auto_detect = true
   config.cache.scope = :machine
 
-  config.vm.box = "ubuntu-trusty"
+  config.vm.box = "ubuntu-14.04"
 
 
   config.vm.network :public_network, ip: "192.168.1.33"
@@ -43,7 +43,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
         server_debian_password: 'debpass',
         server_repl_password: 'replpass'
       }
-      }
+    }
 
     # chef.add_recipe "apt"
     # chef.add_recipe "build-essential"
