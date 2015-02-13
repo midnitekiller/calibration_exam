@@ -30,7 +30,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # config.vm.provider :virtualbox do |vb|
   #   vb.customize ["modifyvm", :id, "--memory", "1024"]
   # end
-  
+
   config.vm.synced_folder "./files/web_app", "/var/www/calibration_exam", id: "vagrant-root", :owner => "vagrant", :group => "www-data"
 
   config.vm.provision :chef_solo do |chef|
@@ -64,8 +64,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       'recipe[php]',
       'recipe[php::module_mysql]',
       'recipe[php::module_curl]',
-      'recipe[php::module_gd]',
-      'recipe[mysql::server"]'
+      'recipe[php::module_gd]'
+      # 'recipe[mysql::server"]'
     ]
     chef.log_level = :debug
   end

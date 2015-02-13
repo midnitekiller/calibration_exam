@@ -1,6 +1,34 @@
-# Intoduction
+# Exam TODO's
 
-My approach to handle calibration exam of Desired Rankings
+/* Functional Programming 101 
+
+
+ 1.) Create a function 'last' that has the following use cases:
+
+ - last("abc")			// --> outputs "c"
+ - last(1,2,3,"D")		// --> outputs "D"
+ - last([1,2,3,4])		// --> outputs 4
+
+
+ 2.) Create a function named 'insertUnique' that accepts any object and ensures all objects in the resulting / current array is unique. 
+
+  var myarray = [];
+
+  var myArray = insertUnique("a");		// results to myArray equals to ["a"]
+      myArray = insertUnique("a");		// results to myArray still equals to ["a"]
+      myArray = insertUnique({"a": 2});	// results to myArray now equals to ["a", {a: 2}]
+
+  BONUS 
+POINTS: turn insertUnique into a prototyped function. e.g.:
+
+  var myArray  = [];
+
+      myArray.insertUnique("a");		// results to myArray equals to ["a"]
+      myArray.insertUnique("a");		// results to myArray still equals to ["a"]
+      myArray.insertUnique({"a": 2});	// results to myArray now equals to ["a", {a: 2}]
+
+ */
+
 
 # Description
 
