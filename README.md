@@ -19,10 +19,6 @@ To get started simply clone the repo and run the following commands to configure
 
 # Usage
 
-## Vagrant
-
-### Provisioning
-
 To provision the vagrant box run the following command.
 
 `$ vagrant up --provision`
@@ -35,27 +31,9 @@ If you receive and error that the box is missing you can install the vagrant box
 
 a list of available boxes will be found [here] (http://www.vagrantbox.es)
 
-### Login
-
-To login to the vagrant box
-
-`$ vagrant ssh`
-
-### Initial Configration
-
-
-## Cloud Provisioning
-
-## Deploying changes
-
-
-
-# Contributions
-
-Just fork the cookbook and feel free to enhance.
 
 # Author
 
-midnitekiller
+Lief Jill Colegado
 		
 
