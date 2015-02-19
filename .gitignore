@@ -9,7 +9,7 @@ pkg/
 # Berkshelf
 .vagrant
 /cookbooks
-
+/files
 Berksfile.lock
 
 

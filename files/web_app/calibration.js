@@ -9,8 +9,5 @@ var theLast = function (list, action) {
 	 return action(handle[--handle.length]);
 };
 
-
-
-
-
 theLast(myChar, logItem);
+
