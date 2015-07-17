@@ -63,5 +63,7 @@ a list of available boxes will be found [here] (http://www.vagrantbox.es)
 # Author
 
 Lief Jill Colegado
+
+Mickoy Mugot
 		
 
